@@ -200,7 +200,7 @@
   padding: 25px 0px;
 }
 
-.about-us-heading, .properties-heading {
+.about-us-heading, .properties-heading, .commitment-heading {
   color: rgba(0, 0, 0, 0.5);
   height: auto;
   font-size: 20px;
@@ -229,12 +229,12 @@
   width: 1600px;
 }
 
-.about-text-container, .property-text-container-right, .property-text-container-left {
+.about-text-container, .property-text-container-right, .property-text-container-left, .commitment-text-container {
   background-color: rgba(226, 181, 135, 0.33);
   padding: 20px 10px;
 }
 
-.about-text, .property-text{
+.about-text, .property-text, .commitment-text{
   color: rgba(0, 0, 0, 1);
   height: auto;
   position: relative;
@@ -305,6 +305,23 @@
   margin-left: 15px;
   position: relative;
   top: -5px;
+}
+
+.commitment-horizontal-line {
+  position: relative;
+  top: -10px;
+  left: 270px;
+}
+
+.commitment-content {
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0px;
+}
+
+.commitment-text-container {
+  margin: 20px 75px;
+  /* margin-top: 25px; */
 }
 
 .footer {
