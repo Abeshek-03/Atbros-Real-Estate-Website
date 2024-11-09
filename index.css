@@ -653,7 +653,8 @@ textarea {
 /* Radio buttons in a single line */
 .radio-group {
   display: flex;
-  justify-content: flex-start; /* Align radio buttons to the left */
+  flex-direction: row;
+  justify-content: center; /* Align radio buttons to the left */
   gap: 20px; /* Space between radio button labels */
   margin-top: 15px;
   align-items: center;
