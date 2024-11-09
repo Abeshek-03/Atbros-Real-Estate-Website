@@ -2,19 +2,16 @@
   width: 100%;
   height: 5892px;
   display: block;
-  /* flex-direction: column; */
   overflow: hidden;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  /* background-color: rgba(200, 175, 133, 1); */
   background-color: white;
 }
 
 .header {
   top: 0px;
   left: 0px;
-  /* width: 1512px; */
   width: 100%;
   height: 120px;
   display: flex;
@@ -55,8 +52,6 @@
 }
 
 .header-text {
-  /* top: 60px;
-  left: 764px; */
   color: rgba(13, 15, 71, 1);
   width: auto;
   height: auto;
@@ -81,13 +76,7 @@
   margin: 20px;
 }
 
-/* .get-in-touch-div .header-text-div {
-  padding: 0px 10px;
-} */
-
 .whatsapp-logo {
-  /* top: 38px;
-  left: 10px; */
   width: 33px;
   height: 30px;
   position: relative;
@@ -95,23 +84,18 @@
 }
 
 .ceiling-img-container {
-  /* height: 100%; */
   padding-top: 25px;
   padding-bottom: 25px;
 
 }
 
 .ceiling-img {
-  /* top: 50px; */
-  /* left: 300px; */
   width: 1600px;
   position: relative;
   margin: auto;
 }
 
 .search-bar-text {
-  /* top: 26px;
-  left: 10px; */
   color: rgba(0, 0, 0, 1);
   height: auto;
   position: relative;
@@ -126,9 +110,6 @@
 }
 
 .search-bar {
-  /* top: 882px;
-  left: 77px; */
-  /* width: 100%; */
   height: 118px;
   display: flex;
   position: relative;
@@ -235,17 +216,29 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-left: 50px;
   padding-right: 50px;
 }
 
+.footer-logo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.reach-us-div {
+  height: 100%;
+}
+
 .footer-text-bold {
-  top: 21px;
-  /* left: 15px; */
+  top: 21.072898864746094px;
+  left: 370px;
   color: rgba(0, 0, 0, 0.5);
-  width: auto;
-  height: 20px;
-  position: relative;
+  width: 92px;
+  height: auto;
+  position: absolute;
   font-size: 20px;
   font-style: Bold;
   text-align: left;
@@ -255,7 +248,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.footer-text {
+.phone-text, .email-text, .address-text {
   top: 47px;
   left: -65px;
   color: rgba(0, 0, 0, 0.5);
@@ -270,31 +263,96 @@
   text-decoration: none;
 }
 
+.phone-text {
+  top: 51.018226623535156px;
+  left: 405px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 134px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 89.99999761581421%;
+  font-stretch: normal;
+  text-decoration: none; 
+}
+
+.email-text {
+  top: 79.29991912841797px;
+  left: 405px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 237px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 89.99999761581421%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.address-text {
+  top: 51.018226623535156px;
+  left: 756px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 64px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 89.99999761581421%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.right-side-footer span {
+  top: 57.11806869506836px;
+  left: 1129px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 89.99999761581421%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
 .footer-logo {
-  /* top: 46px; */
-  /* left: 75px; */
-  /* width: 210px; */
   height: 50px;
   position: relative;
 }
 .phone-icon {
-  top: 33px;
-  left: 5px;
+  top: 51.018226623535156px;
+  left: 373px;
   width: 16px;
   height: 16px;
-  position: relative;
+  position: absolute;
 }
 .mail-icon {
-  top: 45px;
-  left: 5px;
+  top: 79px;
+  left: 373px;
   width: 16px;
   height: 16px;
-  position: relative;
+  position: absolute;
 }
 .building-icon {
-  top: -13px;
-  left: 300px;
+  top: 43px;
+  left: 718px;
   width: 24px;
   height: 24px;
-  position: relative;
+  position: absolute;
 }
