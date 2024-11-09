@@ -1,16 +1,3 @@
-.mac-book-pro141-container {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-}
-
-.main-body {
-  padding: 0px 50px;
-}
-
 .main {
   width: 100%;
   height: 5892px;
@@ -23,14 +10,122 @@
   /* background-color: rgba(200, 175, 133, 1); */
   background-color: white;
 }
-.mac-book-pro141-whitebg {
-  top: 120px;
+
+.header {
+  top: 0px;
   left: 0px;
-  /* width: 1511px; */
+  /* width: 1512px; */
   width: 100%;
-  position: absolute;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 1;
+  background-color: rgba(200, 175, 133, 1);
+  margin-bottom: 25px;
 }
-.mac-book-pro141-search-bar {
+
+.left-side-header {
+  height: 100%;
+  background-color: rgba(200, 175, 133, 1);
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.right-side-header {
+  height: 100%;
+  max-width: 700px;
+  width: 100%;
+  background-color: rgba(200, 175, 133, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.header-text-div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.header-text-div span {
+  white-space: nowrap;
+}
+
+.header-text {
+  /* top: 60px;
+  left: 764px; */
+  color: rgba(13, 15, 71, 1);
+  width: auto;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 89.99999761581421%;
+  font-stretch: normal;
+  text-decoration: none;
+} 
+
+.get-in-touch-div {
+  height: 50%;
+  position: relative;
+  background-color: rgb(216, 190, 145);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+/* .get-in-touch-div .header-text-div {
+  padding: 0px 10px;
+} */
+
+.whatsapp-logo {
+  /* top: 38px;
+  left: 10px; */
+  width: 33px;
+  height: 30px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.ceiling-img-container {
+  /* height: 100%; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.ceiling-img {
+  /* top: 50px; */
+  /* left: 300px; */
+  width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+.search-bar-text {
+  /* top: 26px;
+  left: 10px; */
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: relative;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 89.99999761581421%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.search-bar {
   /* top: 882px;
   left: 77px; */
   /* width: 100%; */
@@ -74,14 +169,7 @@
   justify-content: center;
 }
 
-.mac-book-pro141-rectangle2 {
-  top: 0px;
-  left: 0px;
-  width: 1359px;
-  height: 68px;
-  position: absolute;
-}
-.mac-book-pro141-text10 {
+.search-bar-text {
   top: 9px;
   left: 9px;
   color: rgba(0, 0, 0, 1);
@@ -96,7 +184,8 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro141-text11 {
+
+.search-bar-text-small {
   top: 35px;
   left: 10px;
   color: rgba(0, 0, 0, 1);
@@ -111,765 +200,16 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro141-text12 {
-  top: 9px;
-  left: 10px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: relative;
-  font-size: 14px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text13 {
-  top: 12px;
-  left: 10px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: relative;
-  font-size: 14px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text14 {
-  top: 35px;
-  left: 10px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: relative;
-  font-size: 12px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 500;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text15 {
-  top: 35px;
-  left: 10px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: relative;
-  font-size: 12px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 500;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-dropdown1 {
-  top: 35px;
-  left: 312px;
-  width: 7px;
-  height: 5px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-line41 {
-  top: 1px;
-  left: 0px;
-  width: 5px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-line61 {
-  top: 0px;
-  left: 7px;
-  width: 6px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-dropdown2 {
-  top: 35px;
-  left: 660px;
-  width: 7px;
-  height: 5px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-line42 {
-  top: 1px;
-  left: 0px;
-  width: 5px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-line62 {
-  top: 0px;
-  left: 7px;
-  width: 6px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-dropdown3 {
-  top: 35px;
-  left: 1000px;
-  width: 7px;
-  height: 5px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-line43 {
-  top: 1px;
-  left: 0px;
-  width: 5px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-line63 {
-  top: 0px;
-  left: 7px;
-  width: 6px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-line1 {
-  top: 6px;
-  left: 333px;
-  width: 56px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-line2 {
-  top: 6px;
-  left: 679px;
-  width: 56px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-line3 {
-  top: 6px;
-  left: 1019px;
-  width: 56px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text16 {
-  /* top: 26px;
-  left: 10px; */
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: relative;
-  font-size: 18px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-search {
+
+.search-icon {
   top: 28px;
   left: 1080px;
   width: 14px;
   height: 14px;
   position: absolute;
 }
-.mac-book-pro141-rectangle4 {
-  top: 18px;
-  left: 1051px;
-  width: 276px;
-  height: 33px;
-  position: absolute;
-}
-.header {
-  top: 0px;
-  left: 0px;
-  /* width: 1512px; */
-  width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: space-between;
-  flex-shrink: 1;
-  background-color: rgba(200, 175, 133, 1);
-  margin-bottom: 25px;
-}
 
-.left-side-header {
-  height: 100%;
-  background-color: rgba(200, 175, 133, 1);
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-}
-
-.right-side-header {
-  height: 100%;
-  max-width: 700px;
-  width: 100%;
-  background-color: rgba(200, 175, 133, 1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 30px;
-}
-
-.get-in-touch-div {
-  height: 100%;
-  position: relative;
-  background-color: rgb(216, 190, 145);
-}
-
-.mac-book-pro141-rectangle8 {
-  /* top: 44px;
-  left: 1251px; */
-  width: 208px;
-  height: 47px;
-  /* position: absolute; */
-}
-.mac-book-pro141-text17 {
-  top: -30px;
-  left: 55px;
-  color: rgba(13, 15, 71, 1);
-  width: 165px;
-  height: auto;
-  position: relative;
-  font-size: 20px;
-  /* font-weight: Bold; */
-  /* text-align: left; */
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  /* text-decoration: none; */
-}
-.header-text {
-  /* top: 60px;
-  left: 911px; */
-  color: rgba(13, 15, 71, 1);
-  /* width: 147px; */
-  height: auto;
-  /* position: absolute; */
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-/* .header-text {
-  top: 60px;
-  left: 1077px;
-  color: rgba(13, 15, 71, 1);
-  width: 147px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.header-text {
-  top: 60px;
-  left: 764px;
-  color: rgba(13, 15, 71, 1);
-  width: 147px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-} */
-
-.ceiling-img-container {
-  /* height: 100%; */
-  padding-top: 25px;
-  padding-bottom: 25px;
-
-}
-
-.mac-book-pro141image1topaz1 {
-  /* top: 50px; */
-  /* left: 300px; */
-  width: 1600px;
-  position: relative;
-  margin: auto;
-}
-.mac-book-pro141-about-us {
-  /* top: 1042px; */
-  left: 0px;
-  width: 1358px;
-  height: 890px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text21 {
-  color: rgba(0, 0, 0, 0.5);
-  width: 101px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-line8 {
-  top: 11px;
-  left: 101px;
-  width: 70px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text-container1 {
-  top: 617px;
-  left: 6px;
-  width: 1352px;
-  height: 273px;
-  position: absolute;
-}
-.mac-book-pro141-text22 {
-  top: 628.1103515625px;
-  left: 14.376221656799316px;
-  color: rgba(0, 0, 0, 1);
-  width: 1335px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141img49641 {
-  top: 78.82659912109375px;
-  left: 88.46905517578125px;
-  width: 1187px;
-  height: 493px;
-  position: absolute;
-  border-radius: 64px;
-}
-.mac-book-pro141-properties {
-  top: 2011px;
-  left: 69px;
-  width: 1366px;
-  height: 1689px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-line7 {
-  top: 10px;
-  left: 160px;
-  width: 67px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text23 {
-  left: 8px;
-  color: rgba(0, 0, 0, 0.5);
-  width: 152px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-property1 {
-  top: 99px;
-  left: 0px;
-  width: 1366px;
-  height: 449px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-rectangle5 {
-  top: 0px;
-  left: 79px;
-  width: 330px;
-  height: 449px;
-  position: absolute;
-}
-.mac-book-pro141-property11 {
-  top: 0px;
-  left: 0px;
-  width: 611px;
-  height: 449px;
-  position: absolute;
-}
-.mac-book-pro141-text24 {
-  top: 23px;
-  left: 655px;
-  color: rgba(0, 0, 0, 1);
-  width: 692px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text-container2 {
-  top: 12px;
-  left: 634px;
-  width: 732px;
-  height: 423px;
-  position: absolute;
-}
-.mac-book-pro141-mappin1 {
-  top: 334px;
-  left: 655px;
-  width: 36px;
-  height: 46px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-pin-stroke1 {
-  top: 0px;
-  left: 0px;
-  width: 36px;
-  height: 46px;
-  position: absolute;
-}
-.mac-book-pro141-pin1 {
-  top: 2.81632661819458px;
-  left: 2.5714285373687744px;
-  width: 31px;
-  height: 40px;
-  position: absolute;
-}
-.mac-book-pro141-circle1 {
-  top: 12.204081535339355px;
-  left: 11.142857551574707px;
-  width: 14px;
-  height: 15px;
-  position: absolute;
-}
-.mac-book-pro141-text25 {
-  top: 387px;
-  left: 658px;
-  color: rgba(0, 0, 0, 1);
-  width: 114px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-social-icons {
-  top: 389px;
-  left: 777px;
-  width: 24px;
-  height: 23px;
-  position: absolute;
-}
-.mac-book-pro141-property3 {
-  top: 1208px;
-  left: 0px;
-  width: 1366px;
-  height: 481px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-rectangle7 {
-  top: 1px;
-  left: 80px;
-  width: 330px;
-  height: 449px;
-  position: absolute;
-}
-.mac-book-pro141-text26 {
-  top: 30px;
-  left: 716px;
-  color: rgba(0, 0, 0, 1);
-  width: 630px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-mappin2 {
-  top: 369px;
-  left: 716px;
-  width: 36px;
-  height: 46px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-pin-stroke2 {
-  top: 0px;
-  left: 0px;
-  width: 36px;
-  height: 46px;
-  position: absolute;
-}
-.mac-book-pro141-pin2 {
-  top: 2.81632661819458px;
-  left: 2.5714285373687744px;
-  width: 31px;
-  height: 40px;
-  position: absolute;
-}
-.mac-book-pro141-circle2 {
-  top: 12.204081535339355px;
-  left: 11.142857551574707px;
-  width: 14px;
-  height: 15px;
-  position: absolute;
-}
-.mac-book-pro141-text27 {
-  top: 423px;
-  left: 719px;
-  color: rgba(0, 0, 0, 1);
-  width: 113px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-vector1 {
-  top: 425px;
-  left: 838px;
-  width: 24px;
-  height: 23px;
-  position: absolute;
-}
-.mac-book-pro141-text-container3 {
-  top: 11px;
-  left: 697px;
-  width: 669px;
-  height: 447px;
-  position: absolute;
-}
-.mac-book-pro141-property41 {
-  top: 0px;
-  left: 0px;
-  width: 675px;
-  height: 481px;
-  position: absolute;
-}
-.mac-book-pro141-property2 {
-  top: 654px;
-  left: 0px;
-  width: 1296.5px;
-  height: 449px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-rectangle6 {
-  top: 0px;
-  left: 966.111083984375px;
-  width: 330px;
-  height: 449px;
-  position: absolute;
-}
-.mac-book-pro141-text28 {
-  top: 41px;
-  left: 20px;
-  color: rgba(0, 0, 0, 1);
-  width: 647px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-mappin3 {
-  top: 362px;
-  left: 622px;
-  width: 36px;
-  height: 46px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-pin-stroke3 {
-  top: 0px;
-  left: 0px;
-  width: 36px;
-  height: 46px;
-  position: absolute;
-}
-.mac-book-pro141-pin3 {
-  top: 2.81632661819458px;
-  left: 2.5714285373687744px;
-  width: 31px;
-  height: 40px;
-  position: absolute;
-}
-.mac-book-pro141-circle3 {
-  top: 12.204081535339355px;
-  left: 11.142857551574707px;
-  width: 14px;
-  height: 15px;
-  position: absolute;
-}
-.mac-book-pro141-text29 {
-  top: 413px;
-  left: 568px;
-  color: rgba(0, 0, 0, 1);
-  width: 119px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-vector2 {
-  top: 415.4927978515625px;
-  left: 534px;
-  width: 24px;
-  height: 23px;
-  position: absolute;
-}
-.mac-book-pro141-text-container4 {
-  top: 22px;
-  left: 0px;
-  width: 688px;
-  height: 427px;
-  position: absolute;
-}
-.mac-book-pro141-commitment {
-  top: 3846px;
-  left: 104px;
-  width: 1368px;
-  height: 800px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text30 {
-  color: rgba(0, 0, 0, 0.5);
-  width: 270px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-line9 {
-  top: 12px;
-  left: 270px;
-  width: 70px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text-container5 {
-  top: 45px;
-  left: 45px;
-  width: 750px;
-  height: 755px;
-  position: absolute;
-}
-.mac-book-pro141img49651 {
-  top: 45px;
-  left: 859px;
-  width: 509px;
-  height: 755px;
-  position: absolute;
-  border-radius: 64px;
-}
-.mac-book-pro141-text31 {
-  top: 87px;
-  left: 75px;
-  color: rgba(0, 0, 0, 1);
-  width: 689px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: justified;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-footer {
+.footer {
   top: 5770px;
   left: -1px;
   width: 100%;
@@ -899,23 +239,7 @@
   padding-right: 50px;
 }
 
-.mac-book-pro141-text32 {
-  top: 57.11806869506836px;
-  /* left: 1129px; */
-  color: rgba(0, 0, 0, 0.5);
-  width: 143px;
-  height: auto;
-  position: relative;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 700;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text33 {
+.footer-text-bold {
   top: 21px;
   /* left: 15px; */
   color: rgba(0, 0, 0, 0.5);
@@ -931,7 +255,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro141-text34 {
+.footer-text {
   top: 47px;
   left: -65px;
   color: rgba(0, 0, 0, 0.5);
@@ -945,794 +269,32 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.mac-book-pro141-text35 {
-  top: 42px;
-  left: 100px;
-  color: rgba(0, 0, 0, 0.5);
-  width: 64px;
-  height: auto;
-  position: relative;
-  font-size: 16px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 500;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text36 {
-  top: 78px;
-  left: -265px;
-  color: rgba(0, 0, 0, 0.5);
-  width: 237px;
-  height: auto;
-  position: relative;
-  font-size: 16px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Inter;
-  font-weight: 500;
-  line-height: 89.99999761581421%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-logo1 {
+
+.footer-logo {
   /* top: 46px; */
   /* left: 75px; */
-  width: 210px;
-  height: 28px;
+  /* width: 210px; */
+  height: 50px;
   position: relative;
 }
-.mac-book-pro141-phone {
+.phone-icon {
   top: 33px;
   left: 5px;
   width: 16px;
   height: 16px;
   position: relative;
 }
-.mac-book-pro141-mail {
+.mail-icon {
   top: 45px;
   left: 5px;
   width: 16px;
   height: 16px;
   position: relative;
 }
-.mac-book-pro141-building {
+.building-icon {
   top: -13px;
   left: 300px;
   width: 24px;
   height: 24px;
   position: relative;
-}
-.mac-book-pro141-contact-us {
-  top: 4827px;
-  left: 105px;
-  width: 1302px;
-  height: 785.9956665039062px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-group1000001764 {
-  top: 0px;
-  left: 403px;
-  width: 462px;
-  height: 97px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text37 {
-  left: 118px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text38 {
-  top: 70px;
-  color: rgba(112, 112, 112, 1);
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  font-style: Medium;
-  text-align: center;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001766 {
-  top: 109px;
-  left: 0px;
-  width: 1302px;
-  height: 667px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-group1000001746 {
-  top: 0px;
-  left: 0px;
-  width: 1302px;
-  height: 667px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(255, 240, 210, 1);
-}
-.mac-book-pro141-frame1 {
-  top: 10px;
-  left: 10.886277198791504px;
-  width: 534.5167236328125px;
-  height: 647px;
-  display: flex;
-  overflow: hidden;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.mac-book-pro141-rectangle3841 {
-  top: 0px;
-  left: 0px;
-  width: 491px;
-  height: 647px;
-  position: absolute;
-}
-.mac-book-pro141-ellipse793 {
-  top: 464px;
-  left: 311px;
-  width: 269px;
-  height: 269px;
-  position: absolute;
-}
-.mac-book-pro141-ellipse794 {
-  top: 438px;
-  left: 283px;
-  width: 138px;
-  height: 138px;
-  position: absolute;
-}
-.mac-book-pro141-text39 {
-  top: 40px;
-  left: 40px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 28px;
-  font-style: SemiBold;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 600;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001752 {
-  top: 226px;
-  left: 40px;
-  width: 337px;
-  height: 196px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-carbonlocationfilled {
-  top: 148px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-}
-.mac-book-pro141-group1000001747 {
-  top: 0px;
-  left: 0px;
-  width: 177px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-bxsphonecall {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-}
-.mac-book-pro141-text40 {
-  left: 49px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001748 {
-  top: 74px;
-  left: 0px;
-  width: 296px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-icsharpemail {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-}
-.mac-book-pro141-text41 {
-  left: 49px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text42 {
-  top: 148px;
-  left: 49px;
-  color: rgba(18, 18, 18, 1);
-  width: 288px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001749 {
-  top: 581px;
-  left: 39px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-ellipse795 {
-  top: 0px;
-  left: 0px;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-}
-.mac-book-pro141-vector3 {
-  top: 9px;
-  left: 7.11370849609375px;
-  width: 16px;
-  height: 12px;
-  position: absolute;
-}
-.mac-book-pro141-group1000001750 {
-  top: 581px;
-  left: 93px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-ellipse796 {
-  top: 0px;
-  left: 0px;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-}
-.mac-book-pro141-vector10 {
-  top: 7px;
-  left: 7.11370849609375px;
-  width: 16px;
-  height: 15px;
-  position: absolute;
-}
-.mac-book-pro141-group1000001751 {
-  top: 581px;
-  left: 147px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-ellipse797 {
-  top: 0px;
-  left: 0px;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-}
-.mac-book-pro141-vector11 {
-  top: 10px;
-  left: 7.11370849609375px;
-  width: 16px;
-  height: 10px;
-  position: absolute;
-}
-.mac-book-pro141-text46 {
-  top: 88px;
-  left: 40px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001762 {
-  top: 60px;
-  left: 599.8344116210938px;
-  width: 302.6387939453125px;
-  height: 55px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-vector4 {
-  top: 55px;
-  left: 0px;
-  width: 303px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-vector8 {
-  top: 32px;
-  left: 5.44316291809082px;
-  width: 0px;
-  height: 11px;
-  position: absolute;
-}
-.mac-book-pro141-text47 {
-  color: rgba(15, 15, 15, 1);
-  width: 71px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001759 {
-  top: 160px;
-  left: 599.8344116210938px;
-  width: 302.6387939453125px;
-  height: 55px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-vector6 {
-  top: 55px;
-  left: 0px;
-  width: 303px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text48 {
-  color: rgba(0, 0, 0, 1);
-  width: 37px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001761 {
-  top: 60px;
-  left: 944.9298706054688px;
-  width: 302.6387939453125px;
-  height: 55px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-vector5 {
-  top: 55px;
-  left: 0px;
-  width: 303px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text49 {
-  color: rgba(0, 0, 0, 1);
-  width: 71px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text50 {
-  top: 24px;
-  color: rgba(0, 0, 0, 1);
-  width: 30px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001757 {
-  top: 360px;
-  left: 599.8344116210938px;
-  width: 647.734130859375px;
-  height: 56px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-vector9 {
-  top: 56px;
-  left: 2.2737367544323206e-13px;
-  width: 648px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text51 {
-  color: rgba(19, 19, 19, 1);
-  width: 60px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text52 {
-  top: 25.454545974731445px;
-  left: 2.2737367544323206e-13px;
-  color: rgba(42, 42, 42, 1);
-  width: 162px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001760 {
-  top: 160px;
-  left: 944.9298706054688px;
-  width: 302.6387939453125px;
-  height: 72px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-group1000001763 {
-  top: 0px;
-  left: 0px;
-  width: 302.6387939453125px;
-  height: 55px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-vector7 {
-  top: 55px;
-  left: 0px;
-  width: 303px;
-  height: 1px;
-  position: absolute;
-}
-.mac-book-pro141-text53 {
-  color: rgba(0, 0, 0, 1);
-  width: 98px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-text54 {
-  top: 25px;
-  color: rgba(0, 0, 0, 1);
-  width: 119px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  font-style: Medium;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-claritycursorhandclickline {
-  top: 48px;
-  left: 247.1186065673828px;
-  width: 26px;
-  height: 24px;
-  position: absolute;
-}
-.mac-book-pro141-group1000001758 {
-  top: 260px;
-  left: 599.8344116210938px;
-  width: 566.0869750976562px;
-  height: 55px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text55 {
-  color: rgba(0, 0, 0, 1);
-  width: 119px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  font-style: SemiBold;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 600;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-group1000001754 {
-  top: 34.62963104248047px;
-  left: 0px;
-  width: 125.19230651855469px;
-  height: 20.370370864868164px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text56 {
-  top: 9.094947017729282e-13px;
-  left: 25.038461685180664px;
-  color: rgba(0, 0, 0, 1);
-  width: 100px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-teenyiconstickcirclesolid1 {
-  top: 4.074065208435059px;
-  left: 0px;
-  width: 14px;
-  height: 13px;
-  position: absolute;
-}
-.mac-book-pro141-group1000001753 {
-  top: 34.62939453125px;
-  left: 146.9648895263672px;
-  width: 125.19230651855469px;
-  height: 20.370370864868164px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text57 {
-  top: 9.094947017729282e-13px;
-  left: 25.038423538208008px;
-  color: rgba(0, 0, 0, 1);
-  width: 100px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-teenyiconstickcirclesolid2 {
-  top: 4.074065208435059px;
-  left: 0px;
-  width: 14px;
-  height: 13px;
-  position: absolute;
-}
-.mac-book-pro141-group1000001755 {
-  top: 34.62939453125px;
-  left: 293.9296875px;
-  width: 125.19230651855469px;
-  height: 20.370370864868164px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text58 {
-  top: 9.094947017729282e-13px;
-  left: 25.03850746154785px;
-  color: rgba(0, 0, 0, 1);
-  width: 100px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-teenyiconstickcirclesolid3 {
-  top: 4.074065208435059px;
-  left: 0px;
-  width: 14px;
-  height: 13px;
-  position: absolute;
-}
-.mac-book-pro141-group1000001756 {
-  top: 34.62939453125px;
-  left: 440.8946228027344px;
-  width: 125.19230651855469px;
-  height: 20.370370864868164px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.mac-book-pro141-text59 {
-  top: 9.094947017729282e-13px;
-  left: 25.038471221923828px;
-  color: rgba(0, 0, 0, 1);
-  width: 100px;
-  height: auto;
-  position: absolute;
-  font-size: 12px;
-  font-style: Regular;
-  text-align: left;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: 20px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.mac-book-pro141-teenyiconstickcirclesolid4 {
-  top: 4.074065208435059px;
-  left: 0px;
-  width: 14px;
-  height: 13px;
-  position: absolute;
-}
-.mac-book-pro141-rectangle3842 {
-  top: 562px;
-  left: 1049px;
-  width: 199px;
-  height: 44px;
-  position: absolute;
-  border-radius: 5px;
-}
-.mac-book-pro141-lettersend1 {
-  top: 688.49560546875px;
-  left: 927px;
-  width: 241px;
-  height: 112px;
-  position: absolute;
-}
-.mac-book-pro141-text60 {
-  top: 569px;
-  left: 1074px;
-  color: rgba(255, 255, 255, 1);
-  width: 149px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  font-style: Bold;
-  text-align: center;
-  font-family: Poppins;
-  font-weight: 700;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.whatsapp-logo {
-  top: 38px;
-  left: 10px;
-  width: 33px;
-  height: 30px;
-  position: relative;
-}
-/* .atbros-logo {
-  top: 28px;
-  left: 39px;
-  width: 326px;
-  height: 79px;
-  position: absolute;
-} */
-.mac-book-pro141-property31 {
-  top: 2654px;
-  left: 783px;
-  width: 652px;
-  height: 471px;
-  position: absolute;
 }
