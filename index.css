@@ -1,6 +1,6 @@
-.main {
+.body {
   width: 100%;
-  height: 5892px;
+  height: auto;
   display: block;
   overflow: hidden;
   position: relative;
@@ -489,4 +489,233 @@
   width: 24px;
   height: 24px;
   position: absolute;
+}
+
+/* Backdrop for the contact page */
+.contact-page-backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fdfdfd;
+}
+
+/* Main container for the contact page content */
+.contact-page-container {
+  width: 95%;
+  max-width: 1400px;
+  background-color: #FFF1D2;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  overflow: hidden;
+}
+
+/* Header section centering */
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-header h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.contact-header h5 {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Layout for the two columns */
+.contact-columns {
+  display: flex;
+  gap: 30px;
+}
+
+/* Left column: Contact Information */
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background-color: #F0D7AC;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.contact-info h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+/* Styling individual contact details with icons */
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  color: #333;
+}
+
+.info-item span {
+  font-size: 1.2em;
+}
+
+/* Adding the double-circle design at the bottom-right corner */
+.contact-info::after,
+.contact-info::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.contact-info::after {
+  width: 150px;
+  height: 150px;
+  bottom: 0px;
+  right: 0px;
+  background-color: #DBB87C;
+}
+
+.contact-info::before {
+  width: 100px;
+  height: 100px;
+  bottom: 90px;
+  right: 70px;
+  background-color: #ECC377;
+}
+
+/* Right column: Contact Form */
+.contact-form {
+  flex: 2;
+  min-width: 300px;
+  background-color: #F0D7AC;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-section h5 {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Form row flex layout */
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Styling for input fields and textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #FFF1D2;
+  color: #333;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Radio buttons in a single line */
+/* Radio buttons in a single line */
+.radio-group {
+  display: flex;
+  justify-content: flex-start; /* Align radio buttons to the left */
+  gap: 20px; /* Space between radio button labels */
+  margin-top: 15px;
+  align-items: center;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between radio button and text */
+  font-weight: normal;
+  font-size: 1em;
+  white-space: nowrap; /* Prevent labels from wrapping to the next line */
+}
+
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+
+/* Submit button styling */
+button[type="submit"] {
+  margin-top: 25px;
+  background-color: #d9b283;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #c8a16d;
+}
+
+/* Social icons styling */
+.social-icons {
+  display: flex;
+  gap: 25px;
+  font-size: 1.5em;
+  margin-top: 220px;
+}
+
+.social-icons a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #d9b283;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-columns {
+    flex-direction: column;
+  }
+  .contact-page-container {
+    padding: 20px;
+  }
 }
