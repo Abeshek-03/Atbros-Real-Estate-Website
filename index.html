@@ -178,13 +178,19 @@
 				</div>
 				<div class="right-side-header">
           <div class="header-text-div">
-            <span class="header-text">ABOUT US</span>
+            <a href="#about" onclick="scrollToSection(event, 'about')">
+              <span class="header-text">ABOUT US</span>
+            </a>
           </div>
           <div class="header-text-div">
-            <span class="header-text">PROPERTIES</span>
+            <a href="#properties" onclick="scrollToSection(event, 'properties')">
+              <span class="header-text">PROPERTIES</span>
+            </a>
           </div>
           <div class="header-text-div">
-            <span class="header-text">TESTIMONIALS</span>
+            <a href="#commitment" onclick="scrollToSection(event, 'commitment')">
+              <span class="header-text">OUR COMMITMENT</span>
+            </a>
           </div>
           <div class="get-in-touch-div">
             <img
@@ -287,7 +293,7 @@
 						/>
 					</div>
 				</div> -->
-        <div class="about-us">
+        <div id="id" class="about-us">
           <div class="about-us-heading">
             <span>About Us</span>
             <img 
@@ -326,7 +332,7 @@
             </span>
           </div>
         </div>
-        <div class="properties">
+        <div id="properties" class="properties">
           <div class="properties-heading">
             <span>Our Properties</span>
             <img 
@@ -437,7 +443,7 @@
             </div>
           </div>
         </div>
-        <div class="commitment">
+        <div id="commitment" class="commitment">
           <div class="commitment-heading">
             <span>Commitment to Excellence</span>
             <img
@@ -600,5 +606,6 @@
 				</div>
 			</div>
 		</div>
+    <script src="script.js"></script>
   </body>
 </html>
