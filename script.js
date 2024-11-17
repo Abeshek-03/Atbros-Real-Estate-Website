@@ -5,7 +5,7 @@ function scrollToSection(event, sectionId) {
     const offset = -50; // Adjust this offset as needed (e.g., for fixed header)
 
     // Calculate the scroll position with offset
-    const y = element.getBoundingClientRect().top + window.pageYOffset + offset;
+    const y = element.getBoundingClientRect().top + window.scrollY + offset;
 
     // Smoothly scroll to the calculated position
     window.scrollTo({ top: y, behavior: 'smooth' });
