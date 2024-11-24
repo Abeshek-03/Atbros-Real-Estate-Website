@@ -347,9 +347,13 @@
 }
 
 .property {
+  margin: 35px 0px;
+}
+
+.property-top {
   display: flex;
   flex-direction: row;
-  margin: 35px 0px;
+  margin-bottom: 50px;
 }
 
 .property-text-container-right, .property-text-container-left {
@@ -394,6 +398,63 @@
   position: relative;
   top: -5px;
 }
+
+/* Graph */
+
+.property-graph {
+  position: relative;
+  flex-direction: column; /* Stack SVG and button vertically */
+  align-items: center; /* Horizontally center */
+  justify-content: center; /* Vertically center */
+  width: 100%;
+  max-width: 1500px; /* Set maximum width */
+  height: 500px; /* Define a height for the graph container */
+  margin: 0 auto; /* Center the graph */
+  background: #2b2d42; /* Optional background color */
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#draw {
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  background: #f79a7a;
+  border: 4px solid white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+}
+
+#draw:focus {
+  outline: none;
+}
+
+#svg {
+  width: 100%; /* Make SVG responsive */
+  height: calc(100% - 60px); /* Leave space for the button */
+}
+.line {
+  stroke-dashoffset: 0;
+  box-shadow: 10px 10px 1px black;
+}
+.breakpoint {
+  transform: scale(0);
+  position: absolute;
+  transform-origin: 50% 50%;
+}
+.active {
+  transform: scale(1);
+}
+
+
+
+/* Graph */
 
 .commitment-horizontal-line {
   position: relative;
