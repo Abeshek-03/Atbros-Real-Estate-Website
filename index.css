@@ -539,6 +539,12 @@
   padding-left: 35px;
 }
 
+.reach-us-right span{
+  width: 200px;
+  top: -10px;
+  line-height: 19px;
+}
+
 .reach-us-heading {
   width: 100%;
   padding-top: 21px;
@@ -564,6 +570,7 @@
   flex-direction: row;
   padding-left: 15px;
   padding-top: 10px;
+  white-space: nowrap;
 }
 
 .reach-us-email {
