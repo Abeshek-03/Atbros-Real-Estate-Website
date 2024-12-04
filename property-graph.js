@@ -7,22 +7,25 @@ const prices0 = [
     5641.18, 5727.30, 5790.00, 5844.08, 5910.41, 6002.63, 5727.30, 5790.00, 5844.08, 5844.08, 5893.02, 5955.20  // 2024
   ];
 
-const prices1 = [
-    3200.00, 3264.51, 3332.80, 3359.13, 3365.36, 3437.23, 3401.51, 3479.97, 3545.14, 3501.20, 3569.45, 3641.35, // 2012
-    3717.00, 3654.89, 3730.69, 3806.60, 3752.90, 3831.42, 3912.22, 3860.54, 3938.92, 4018.94, 3967.48, 4053.31, // 2013
-    4134.14, 4067.12, 4149.65, 4232.98, 4168.23, 4253.84, 4341.12, 4277.05, 4365.59, 4455.78, 4392.64, 4483.48, // 2014
-    4575.91, 4505.33, 4598.43, 4692.40, 4622.03, 4717.47, 4814.72, 4744.73, 4842.67, 4941.47, 4872.25, 4972.92, // 2015
-    5075.57, 5000.73, 5104.74, 5209.69, 5134.25, 5240.76, 5348.17, 5272.20, 5380.32, 5490.43, 5414.93, 5527.19, // 2016
-    5641.57, 5561.12, 5676.98, 5793.72, 5713.83, 5831.11, 5950.00, 5869.69, 5989.82, 6111.78, 6031.26, 6154.05, // 2017
-    6278.77, 6195.63, 6321.49, 6448.92, 6365.13, 6493.19, 6623.05, 6538.71, 6668.01, 6799.85, 6715.07, 6847.35, // 2018
-    6981.77, 6894.30, 7028.99, 7165.38, 7077.39, 7213.48, 7351.62, 7262.23, 7399.84, 7539.49, 7450.60, 7590.48, // 2019
-    7732.41, 7641.74, 7784.01, 7927.81, 7836.40, 7980.27, 8125.88, 8033.93, 8179.78, 8327.14, 8234.63, 8382.95, // 2020
-    8532.78, 8438.63, 8588.45, 8740.22, 8645.39, 8796.59, 8950.50, 8854.97, 9007.57, 9162.74, 9066.52, 9221.77, // 2021
-    9378.39, 9279.41, 9437.24, 9596.84, 9497.12, 9656.34, 9817.91, 9717.45, 9879.47, 10043.23, 9942.11, 10106.33, // 2022
-    10272.93, 10169.09, 10336.78, 10506.53, 10402.09, 10571.95, 10743.89, 10638.87, 10811.00, 10985.31, 10879.73, 11054.10, // 2023
+  const prices1 = [
+    3200.00, 3264.12, 3302.45, 3341.23, 3365.89, 3412.56, 3387.34, 3456.12, 3502.78, 3478.45, 3523.67, 3589.34, // 2012
+    3642.89, 3598.67, 3678.45, 3734.12, 3695.23, 3762.89, 3834.56, 3790.12, 3867.45, 3923.78, 3882.34, 3956.67, // 2013
+    4023.45, 3987.12, 4056.78, 4112.34, 4068.90, 4137.56, 4209.23, 4165.67, 4236.89, 4298.45, 4252.12, 4326.78, // 2014
+    4392.45, 4348.90, 4417.56, 4482.23, 4438.67, 4507.34, 4578.90, 4534.12, 4605.78, 4671.45, 4626.89, 4698.56, // 2015
+    4765.23, 4721.67, 4792.34, 4858.90, 4814.56, 4885.23, 4956.67, 4912.34, 4983.90, 5049.56, 5004.12, 5076.78, // 2016
+    5143.45, 5098.90, 5170.56, 5236.23, 5191.67, 5263.34, 5334.90, 5290.12, 5361.78, 5427.45, 5382.89, 5454.56, // 2017
+    5521.23, 5476.67, 5548.34, 5614.90, 5570.12, 5641.78, 5713.45, 5668.90, 5740.56, 5806.23, 5761.67, 5833.34, // 2018
+    5900.90, 5856.12, 5927.78, 5993.45, 5948.90, 6020.56, 6092.23, 6047.67, 6119.34, 6185.90, 6141.12, 6212.78, // 2019
+    7282.45, 7228.90, 7302.56, 7378.23, 7324.67, 7398.34, 7473.90, 7420.12, 7494.78, 7570.45, 7516.89, 7591.56, // 2020
+    8392.23, 8338.67, 8412.34, 8487.90, 8434.12, 8507.78, 8583.45, 8529.90, 8603.56, 8679.23, 8625.67, 8699.34, // 2021
+    9436.90, 9382.12, 9456.78, 9532.45, 9478.90, 9553.56, 9629.23, 9575.67, 9650.34, 9726.90, 9673.12, 9747.78, // 2022
+    10512.45, 10458.90, 10533.56, 10609.23, 10555.67, 10630.34, 10706.90, 10653.12, 10727.78, 10803.45, 10749.90, 10824.56, // 2023
     11230.74, 11122.62, 11300.39, 11480.22, 11371.67, 11551.88, 11733.38, 11623.32, 11805.10, 11988.16, 11877.43, 12061.75, // 2024
-    12247.36, 12500.00 // Final
+    12500.00 // Final value
   ];
+
+  
+  
   
   
   // Find the min and max values
@@ -40,7 +43,6 @@ var price1 = prices1.map(price => {
 // Dynamically calculate chart dimensions based on container
 function calculateDimensions(index) {
   const container = $('.property-graph').eq(index);
-  console.log(container);
   const chartH = container.height();
   const chartW = container.width();
   return { chartH, chartW };
@@ -185,14 +187,74 @@ function animate(price, index) {
   }
 }
 
-$('#draw0').on('click',function(){
-    $('#svg0').empty();
-    draw(price0, 0);
-    animate(price0, 0);
-  });
+document.addEventListener('DOMContentLoaded', () => {
+  // Select all property-graph divs
+  const graphContainers = document.querySelectorAll('.property-graph');
 
-  $('#draw1').on('click',function(){
-    $('#svg1').empty();
-    draw(price1, 1);
-    animate(price1, 1);
+  // Intersection Observer configuration
+  const observerOptions = {
+    root: null, // viewport
+    rootMargin: '0px',
+    threshold: 0.1 // trigger when 10% of the element is visible
+  };
+
+  // Intersection Observer callback
+  const handleIntersection = (entries, observer) => {
+    entries.forEach((entry) => {
+      // Find the index of this specific graph container
+      const index = Array.from(graphContainers).indexOf(entry.target);
+      
+      if (entry.isIntersecting) {
+        // Get the corresponding SVG
+        const svgId = `svg${index}`;
+        const svgElement = document.getElementById(svgId);
+        
+        // Clear previous content
+        $(svgId).empty();
+
+        // Determine which price array to use based on the index
+        const priceArray = index === 0 ? price0 : price1;
+
+        // Draw and animate the graph
+        draw(priceArray, index);
+        animate(priceArray, index);
+
+        // Unobserve the element to prevent re-triggering
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+
+  // Create Intersection Observer
+  const observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+  // Observe all graph containers
+  graphContainers.forEach(container => {
+    observer.observe(container);
   });
+});
+
+// Optional: Fallback for older browsers
+function fallbackDrawGraphs() {
+  const graphContainers = document.querySelectorAll('.property-graph');
+  graphContainers.forEach((container, index) => {
+    const svgId = `svg${index}`;
+    const svgElement = document.getElementById(svgId);
+    
+    // Clear previous content
+    $(svgId).empty();
+
+    // Determine which price array to use based on the index
+    const priceArray = index === 0 ? price0 : price1;
+
+    // Draw and animate the graph
+    draw(priceArray, index);
+    animate(priceArray, index);
+  });
+}
+
+// Check for Intersection Observer support
+if (!('IntersectionObserver' in window)) {
+  // Fallback for browsers without Intersection Observer
+  window.addEventListener('load', fallbackDrawGraphs);
+}
