@@ -10,3 +10,11 @@ function scrollToSection(event, sectionId) {
     // Smoothly scroll to the calculated position
     window.scrollTo({ top: y, behavior: 'smooth' });
 }
+
+function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Smooth scrolling effect
+    });
+  }
+  

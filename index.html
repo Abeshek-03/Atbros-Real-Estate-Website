@@ -176,62 +176,45 @@
 						class="atbros-logo"
 					/>
 				</div>
-				<div class="right-side-header">
-          <div class="header-text-div">
-            <!-- <a onclick="scrollToSection(event, 'about')">
-              <span class="header-text">ABOUT US</span>
-            </a> -->
-            <button class="btn" onclick="scrollToSection(event, 'about')">
-              <span>ABOUT US</span>
-              <svg class="btn-svg" width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-              </svg>
-            </button>
-          </div>
-          <div class="header-text-div">
-            <!-- <a onclick="scrollToSection(event, 'properties')">
-              <span class="header-text">PROPERTIES</span>
-            </a> -->
-            <button class="btn" onclick="scrollToSection(event, 'properties')">
-              <span>PROPERTIES</span>
-              <svg class="btn-svg" width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-              </svg>
-            </button>
-          </div>
-          <div class="header-text-div">
-            <!-- <a onclick="scrollToSection(event, 'commitment')">
-              <span class="header-text">OUR COMMITMENT</span>
-            </a> -->
-            <button class="btn" onclick="scrollToSection(event, 'commitment')">
-              <span>COMMITMENT</span>
-              <svg class="btn-svg" width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-              </svg>
-            </button>
-          </div>
-          <div class="get-in-touch-div">
-            <img
-            src="assets/whatsapp-logo.svg"
-            class="whatsapp-logo"
-            />
-            <div class="header-text-div">
-                <span class="header-text">GET IN TOUCH</span>
-            </div>
-					</div>
-				</div>
+				
+        <div id="menuToggle">
+          <input type="checkbox" id="menuCheckbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li><label for="menuCheckbox" onclick="scrollToTop();">Home</label></li>
+            <li><label for="menuCheckbox" onclick="scrollToSection(event, 'about');">About</label></li>
+            <li><label for="menuCheckbox" onclick="scrollToSection(event, 'properties');">Properties</label></li>
+            <li><label for="menuCheckbox" onclick="scrollToSection(event, 'commitment');">Our Commitment</label></li>
+          </ul>
+        </div>
 			</div>
       <div class="ceiling-img-bg">
-        <div class="ceiling-img-container">
+        <!-- <div class="ceiling-img-container">
           <img
             src="assets/celing-img.png"
             alt="IMAGE1topaz177"
             class="ceiling-img"
           />
-        </div>
+        </div> -->
+        <div class="slider" id="slider1">
+          <!-- Slides -->
+          <div style="background-image:url(assets/slider-img-1.png)"></div>
+          <div style="background-image:url(assets/slider-img-2.jpg)"></div>
+          <div style="background-image:url(assets/slider-img-3.jpg)"></div>
+          <div style="background-image:url(assets/slider-img-4.jpg)"></div>
+          <div style="background-image:url(assets/slider-img-5.jpg)"></div>
+          <!-- The Arrows -->
+          <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+                  <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
+              </svg></i>
+          <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100">
+                  <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path>
+              </svg></i>
+      </div>
+      
+        
       </div>
 			<div class="main-body">
 				<!-- <div class="search-bar">
