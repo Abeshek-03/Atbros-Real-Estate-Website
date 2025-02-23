@@ -532,7 +532,7 @@
                   </div>
                   <div class="info-item">
                     <span>📍</span>
-                    <p>No. 14, Old No.13/2, 27th Cross Street, Besant Nagar, Chennai - 600090</p>
+                    <p>New No 67, Old No 32, ‘Devadaya Apts’, 3C, Third Floor, 1st Main Road, Gandhi Nagar, Adyar, Chennai-600020.</p>
                   </div>
                   <div class="social-icons">
                     <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -540,37 +540,40 @@
                     <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                   </div>
                 </div>
-        
+      
                 <!-- Right Column: Contact Form -->
                 <div class="contact-form">
-                  <form action="#" method="post">
+                  <!-- Feedback Messages -->
+                  <div id="feedback-message"></div>
+      
+                  <form id="contact-form">
                     <div class="form-row">
                       <div class="form-group">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="John" required>
+                        <label for="first-name">First Name<span style="color:red;">*</span></label>
+                        <input type="text" id="first-name" name="first_name" placeholder="John" required>
                       </div>
                       <div class="form-group">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+                        <label for="last-name">Last Name<span style="color:red;">*</span></label>
+                        <input type="text" id="last-name" name="last_name" placeholder="Doe" required>
                       </div>
                     </div>
                     <div class="form-row">
                       <div class="form-group">
-                        <label for="email">Email</label>
+                        <label for="email">Email<span style="color:red;">*</span></label>
                         <input type="email" id="email" name="email" placeholder="you@example.com" required>
                       </div>
                       <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="+91 123 456 7890" required>
+                        <label for="phone">Phone Number<span style="color:red;">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 123 456 7890" required pattern="\+\d{2}\s?\d{3}\s?\d{3}\s?\d{4}" title="Enter phone number in format: +91 123 456 7890">
                       </div>
                     </div>
                     <div class="form-group radio-group">
-                      <label><input type="radio" name="subject" value="general" checked> General Inquiry</label>
-                      <label><input type="radio" name="subject" value="support"> Support</label>
-                      <label><input type="radio" name="subject" value="feedback"> Feedback</label>
-                    </div>                  
+                      <label><input type="radio" name="subject" value="General Inquiry" checked required> General Inquiry</label>
+                      <label><input type="radio" name="subject" value="Support"> Support</label>
+                      <label><input type="radio" name="subject" value="Feedback"> Feedback</label>
+                    </div>
                     <div class="form-group">
-                      <label for="message">Message</label>
+                      <label for="message">Message<span style="color:red;">*</span></label>
                       <textarea id="message" name="message" rows="4" placeholder="Write your message.." required></textarea>
                     </div>
                     <button type="submit">Send Message</button>
@@ -620,7 +623,7 @@
                 alt="building2617"
                 class="building-icon"
               />
-              <span class="address-text">No. 14, Old No.13/2, 27th Cross Street, Besant Nagar, Chennai - 600090</span>
+              <span class="address-text">#67, ‘Devadaya Apts’, 3C, Third Floor, 1st Main Road, Gandhi Nagar, Adyar, Chennai-600020.</span>
             </div>
           </div>
 				</div>
@@ -635,5 +638,60 @@
     <script src="script.js"></script>
     <script src="property-graph.js"></script>
     <script src="scroll.js"></script>
+    <!-- Include EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+    })();
+  </script>
+
+  <!-- JavaScript Code to Handle Form Submission -->
+  <script type="text/javascript">
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Collect form data
+        var firstName = document.getElementById('first-name').value.trim();
+        var lastName = document.getElementById('last-name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var phone = document.getElementById('phone').value.trim();
+        var subject = document.querySelector('input[name="subject"]:checked').value;
+        var message = document.getElementById('message').value.trim();
+
+        // Simple validation
+        if (!firstName || !lastName || !email || !phone || !message) {
+            displayFeedback('Please fill in all required fields.', 'red');
+            return;
+        }
+
+        // Prepare the email parameters
+        var templateParams = {
+            first_name: firstName,
+            last_name: lastName,
+            email: email,
+            phone: phone,
+            subject: subject,
+            message: message
+        };
+
+        // Send the email using EmailJS
+        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                displayFeedback('Thank you! Your message has been sent successfully.', 'green');
+                document.getElementById('contact-form').reset(); // Reset the form
+            }, function(error) {
+                console.log('FAILED...', error);
+                displayFeedback('There was an issue sending your message. Please try again later.', 'red');
+            });
+    });
+
+    // Function to display feedback messages
+    function displayFeedback(message, color) {
+        var feedbackDiv = document.getElementById('feedback-message');
+        feedbackDiv.innerHTML = '<p style="color: ' + color + '; margin-bottom: 20px;">' + message + '</p>';
+    }
+  </script>
   </body>
 </html>
